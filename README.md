@@ -9,18 +9,7 @@
 ### System.out.println("최댓값은 " + maxOf(height) + maxOf(height) + "입니다."); 를 사용하여 마지막 최댓값을 구할수있다.
 
 # 반복문 코드
-package sungil21102algo;
-import java.util.Scanner;
-public class Loop {
-	// 배열 a의 최댓값을 구하여 변환
-	static int maxOf(int[] a) {
-		int max = a[0];
-		for (int i =1; i < a.length; i++)
-			if (a[i]>max)
-					max = a[i];
-		return max;
-	}
-	
+
 	public static void main(String[] args) {
 			Scanner stdIn = new Scanner(System.in);
 			
